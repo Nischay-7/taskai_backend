@@ -42,21 +42,23 @@ Follow these instructions to get the project running locally.
 
 2. **Create and activate a virtual environment (recommended):**
 
-   ```
+   ```bash
    python3 -m venv env
    source env/bin/activate      # On Windows: env\Scripts\activate
 
 3. **Install dependencies:**
 
-   ```pip install -r requirements.txt
+   ```bash
+   pip install -r requirements.txt
 
 4. **Configuration**
 
-   ```Create a .env file in the project root (optional but recommended) to store sensitive settings like SECRET_KEY, database credentials, and JWT settings.
+   ```bash
+   Create a .env file in the project root (optional but recommended) to store sensitive settings like SECRET_KEY, database credentials, and JWT settings.
 
-   **Example .env:**
+**Example .env:**
 
-   ```env
+   env
    Copy
    Edit
    SECRET_KEY=your-secret-key
