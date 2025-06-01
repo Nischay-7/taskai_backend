@@ -42,20 +42,21 @@ Follow these instructions to get the project running locally.
 
 2. **Create and activate a virtual environment (recommended):**
 
+   ```
    python3 -m venv env
    source env/bin/activate      # On Windows: env\Scripts\activate
 
 3. **Install dependencies:**
 
-   pip install -r requirements.txt
+   ```pip install -r requirements.txt
 
 4. **Configuration**
 
-   Create a .env file in the project root (optional but recommended) to store sensitive settings like SECRET_KEY, database credentials, and JWT settings.
+   ```Create a .env file in the project root (optional but recommended) to store sensitive settings like SECRET_KEY, database credentials, and JWT settings.
 
    **Example .env:**
 
-   env
+   ```env
    Copy
    Edit
    SECRET_KEY=your-secret-key
@@ -65,7 +66,7 @@ Follow these instructions to get the project running locally.
 
 5. **Apply migrations:**
 
-   bash
+   ```bash
    Copy
    Edit
    python manage.py migrate
@@ -73,7 +74,7 @@ Follow these instructions to get the project running locally.
 6. **Running the Server**
    Start the development server:
 
-   bash
+   ```bash
    Copy
    Edit
    python manage.py runserver
