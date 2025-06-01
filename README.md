@@ -53,32 +53,17 @@ Follow these instructions to get the project running locally.
 
 4. **Configuration**
 
-   ```bash
    Create a .env file in the project root (optional but recommended) to store sensitive settings like SECRET_KEY, database credentials, and JWT settings.
-
-**Example .env:**
-
-   env
-   Copy
-   Edit
-   SECRET_KEY=your-secret-key
-   DEBUG=True
-   ALLOWED_HOSTS=localhost,127.0.0.1
-   DATABASE_URL=sqlite:///db.sqlite3
 
 5. **Apply migrations:**
 
    ```bash
-   Copy
-   Edit
    python manage.py migrate
 
 6. **Running the Server**
    Start the development server:
 
    ```bash
-   Copy
-   Edit
    python manage.py runserver
    
 **The API will be accessible at http://127.0.0.1:8000/**
