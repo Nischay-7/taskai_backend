@@ -1,0 +1,6 @@
+venv/
+taskai_backend_backup/
+*.sqlite3
+.env
+__pycache__/
+*.pyc
